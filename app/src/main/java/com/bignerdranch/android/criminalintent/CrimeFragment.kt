@@ -25,6 +25,7 @@ class CrimeFragment : Fragment(), DatePickerFragment.Collbacks {
     private lateinit var titleField: EditText
     private  lateinit var dateButton: Button
     private lateinit var solvedCheckBox: CheckBox
+
     private val crimeDetailViewModel: CrimeDetailViewModel by lazy{
         ViewModelProvider(this).get(CrimeDetailViewModel::class.java)
     }
